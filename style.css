@@ -1,0 +1,129 @@
+/*  */
+/* *{ */
+    /* border: solid black */
+/* } */
+/*  */
+@font-face{
+
+    font-family: Perfect;
+    src:url("perfect_dos_vga_437/Perfect\ DOS\ VGA\ 437\ Win.ttf");
+
+}
+.jogos{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content: center;
+
+    margin-left: 50px;
+
+    margin-right: 50px;
+}
+
+.jogos p,h3{
+
+    color: black;
+
+}
+
+h1,h2,h3,p{
+
+    color: aliceblue;
+
+    font-family: Perfect;
+}
+
+h2, p{
+
+    margin-left: 50px;
+}
+
+.header{
+
+    background-color:rgba(255, 222, 77, 0.5);
+    border:solid yellow;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.header h1{
+
+    text-align: center;
+
+}
+.menu{
+    color:rgb(255, 222, 77);
+
+    justify-content: center;
+
+}
+
+.menu a{
+
+    padding-left: 47%;
+
+}
+
+.menu h3{
+    color: white;
+
+    text-align: center;
+}
+
+.item{
+
+    border:solid hwb(271 29% 0%);
+    background-color: #7207ff; 
+
+    /* align-items: center; */
+    text-align: center;
+
+    border-radius: 10px;
+
+    position: relative;
+
+    margin: 46px;
+
+}
+
+.item h3{
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    opacity: 0;
+}
+
+.item:hover h3{
+
+    opacity: 1;
+
+    transition: 0.5s;
+}
+
+.item:hover img{
+
+    opacity: 0.1;
+
+    transition: 0.5s;
+}
+
+.redes{
+
+    margin-left: 50px;
+
+}
+
+body{
+
+    /* rgb(red, grenn, blue) */
+    background-color: #252525;
+
+}
